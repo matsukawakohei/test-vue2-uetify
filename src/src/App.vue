@@ -40,6 +40,19 @@
     <v-main>
       <HelloWorld/>
     </v-main>
+
+    <v-alert
+      border="left"
+      type="success"
+    >アラートテスト</v-alert>
+
+    <v-alert
+      shaped
+      dark
+      color="info"
+    >
+      I'm a shaped alert with a border-radius at top-left, bottom-right
+    </v-alert>
   </v-app>
 </template>
 
