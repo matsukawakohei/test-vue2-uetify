@@ -53,6 +53,17 @@
     >
       I'm a shaped alert with a border-radius at top-left, bottom-right
     </v-alert>
+
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <span
+          v-bind="attrs"
+          v-on="on"
+        >This text has a tooltip</span>
+      </template>
+      <span>Tooltip</span>
+    </v-tooltip>
+  </div>
   </v-app>
 </template>
 
